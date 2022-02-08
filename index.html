@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .debit-card{
+                height: 300px;
+                width: 450px;
+               border-radius: 25px;
+               background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+            }
+            .img-chip{
+                height: 45px;
+                margin: 15px;
+            }
+            .img-bank{
+                width: 70px;
+                margin: 20px;
+
+            }
+            .container-chip{
+                display: flex;
+                justify-content: space-between;
+            }
+            .container-number{
+                display: flex;
+                justify-content: space-evenly;
+
+            }
+            .container-details{
+                display: flex;
+                justify-content: space-around;
+
+
+            }
+            .num{
+                font-size: 28px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-shadow: 0px 0px 4px rgb(39, 12, 158);
+            }
+            .info-title{
+                font-size: 25px;
+                font-style:italic ;
+                text-align: end;
+                padding-top: 25px;
+                text-shadow: 0px 0px 2px #b8cbb8;
+                
+            }
+            .card-info{
+                font-size:25px ;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: end;
+                font-weight: bold;
+                padding-bottom: 30px;
+            }
+            .logo{
+                border-radius: 3px;
+                width: 70px;
+                margin-top: 122px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="debit-card">
+            <div class="debit-card-content">
+                <div class="front">
+                    <div class="container-chip">
+                        <img src="./img/icons8-chip-card-48.png" style="height: 50px;" class="img-chip"/>
+                        <img src="./img/visa.jpg" style="height: 40px;" class="img-bank"/>
+                    </div>
+                    <div class="container-number">
+                        <span class="num">6423</span>
+                        <span class="num">8901</span>
+                        <span class="num">4247</span>
+                        <span class="num">9420</span>
+                    </div>
+                    <div class="container-details">
+                        <span>
+                            <p class="info-title "> Card Holder Name</p>
+                            <p class="card-info ">Sakshi Pal</p>
+                        </span>
+                        <span>
+                            <p class="info-title ">Validity</p>
+                            <p class="card-info ">08/2025</p>
+                        </span>
+
+                    
+                    <span>
+
+                        <img src="./img/sbi.jpg" style="heigth:32px;" class="logo">
+                    </span>
+                    
+                </div>
+                </div>
+                <div class="back">
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
